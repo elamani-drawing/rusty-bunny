@@ -17,7 +17,7 @@ This is a bunnylol clone programmed in rust.
 ![demo of rusty bunny](demo.gif)
 
 ## Installation
-0. Install [Rust](hhttps://www.rust-lang.org/)
+0. Install [Rust](https://www.rust-lang.org/)
 1. Clone rusty-bunny
 ```sh
     git clone https://github.com/elamani-drawing/rusty-bunny
@@ -43,8 +43,9 @@ The following commands are supported by `rusty-bunny`:
 - "tw" -> redirects to twitter.com
 - "tw @username" -> redirects to twitter.com/username
 - "gh" -> redirects to github.com
-- "gh username" -> redirects to github.com/username
-- "gh username/repo" -> redirects to github.com/username/repo
+- "gh @username" -> redirects to github.com/username
+- "gh @username/repo" -> redirects to github.com/username/repo
+- "gh search" -> make a search in github
 - ..for more commands see [list commands](/docs/list_command.md)
 Everything else redirects to a google search with your query.
 

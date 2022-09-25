@@ -1,3 +1,5 @@
+extern crate percent_encoding;
+
 const LINK_INSTAGRAM: &str ="https://www.instagram.com";
 
 pub fn construct_instagram_url(query: &str) -> String {
@@ -16,7 +18,6 @@ pub fn construct_instagram_profile_url(profile: &str) -> String {
 }
 
 pub fn construct_instagram_tag_url(tag: String) -> String {
-    println!("---{}",tag);
     format!("{}/tags/{}",LINK_INSTAGRAM, tag)
 }
 

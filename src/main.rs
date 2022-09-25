@@ -19,6 +19,7 @@ fn search ( cmd : String ) -> Redirect {
         "gh" => utils::github::construct_github_url(&cmd),
         "tw" => utils::twitter::construct_twitter_url(&cmd),
         "ig" => utils::instagram::construct_instagram_url(&cmd),
+        "yt" => utils::youtube::construct_youtube_url(&cmd),
         _ => utils::google::construct_google_search_url(&cmd)
 
     };

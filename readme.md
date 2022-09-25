@@ -2,7 +2,7 @@
 - [Summary](#summary)
 - [Description](#description)
 - [Demo](#demo)
-  - [Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Auteurs](#auteurs)
@@ -14,9 +14,13 @@ This project was born after because I wanted to make the [rusty-bunny](https://d
 This is a bunnylol clone programmed in rust.
 
 ## Demo
+![](demo.mp4)
+<video width="640" height="480" controls autoplay>
+  <source src="demo.mp4" type="video/mp4" >
+</video>
 
-### Installation
-0. Install [Rust](hhttps://www.rust-lang.org/fr)
+## Installation
+0. Install [Rust](hhttps://www.rust-lang.org/)
 1. Clone rusty-bunny
 ```sh
     git clone https://github.com/elamani-drawing/rusty-bunny

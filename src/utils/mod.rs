@@ -1,6 +1,7 @@
 pub mod google;
 pub mod twitter;
 pub mod github;
+pub mod instagram;
 
 // utiliser pour analyser la chaîne de requête
 pub fn get_command_from_query_string(query_string: &str) -> &str {
@@ -16,6 +17,9 @@ pub fn get_command_from_query_string(query_string: &str) -> &str {
     &query_string
 }
 
+pub fn remove_space_at_query(query_string: &str)-> String {
+    query_string.replace(' ', "")
+}
 
 #[cfg(test)]
 mod tests {

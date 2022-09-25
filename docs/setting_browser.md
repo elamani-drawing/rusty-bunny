@@ -1,5 +1,5 @@
 # Summary
--[Firefox](#setting-firefox)
+-[Firefox](#setting-firefox)  
 -[Chrome](#setting-chrome)
 
 ## Setting Firefox

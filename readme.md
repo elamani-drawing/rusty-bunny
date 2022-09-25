@@ -1,10 +1,11 @@
 ## Summary
-1. [Description](#description)
-2. [Demo](#demo)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [License](#license)
-6. [Auteurs](#auteurs)
+- [Summary](#summary)
+- [Description](#description)
+- [Demo](#demo)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Auteurs](#auteurs)
 
 ## Description
 
@@ -15,7 +16,7 @@ This is a bunnylol clone programmed in rust.
 ## Demo
 
 ### Installation
-0. Install [Rust](https://github.com/elamani-drawing/rusty-bunny)
+0. Install [Rust](hhttps://www.rust-lang.org/fr)
 1. Clone rusty-bunny
 ```sh
     git clone https://github.com/elamani-drawing/rusty-bunny
@@ -43,7 +44,7 @@ The following commands are supported by `rusty-bunny`:
 - "gh" -> redirects to github.com
 - "gh username" -> redirects to github.com/username
 - "gh username/repo" -> redirects to github.com/username/repo
-
+- ..for more commands see [list commands](/docs/list_command.md)
 Everything else redirects to a google search with your query.
 
 ## License

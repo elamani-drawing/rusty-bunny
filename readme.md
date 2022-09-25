@@ -14,10 +14,7 @@ This project was born after because I wanted to make the [rusty-bunny](https://d
 This is a bunnylol clone programmed in rust.
 
 ## Demo
-![](https://cdn.discordapp.com/attachments/844822776464277565/1023714643081957416/demo.mp4)
-<video width="640" height="480" controls autoplay>
-  <source src="https://cdn.discordapp.com/attachments/844822776464277565/1023714643081957416/demo.mp4" type="video/mp4" >
-</video>
+![demo of rusty bunny](demo.gif)
 
 ## Installation
 0. Install [Rust](hhttps://www.rust-lang.org/)

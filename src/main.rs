@@ -21,6 +21,7 @@ fn search ( cmd : String ) -> Redirect {
         "ig" => utils::instagram::construct_instagram_url(&cmd),
         "yt" => utils::youtube::construct_youtube_url(&cmd),
         "pin" => utils::pinterest::construct_pinterest_url(&cmd),
+        "red" => utils::reddit::construct_reddit_url(&cmd),
         _ => utils::google::construct_google_search_url(&cmd)
 
     };

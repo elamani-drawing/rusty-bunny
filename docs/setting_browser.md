@@ -16,7 +16,7 @@ To set up the new application to be used as a custom search engine in Firefox, y
 3. Fill out the form with the following values:
 ```sh
     - Name: Rusty Bunny Local (you can use whatever you want here)
-    - Search URL: https://obscure-temple-97338.herokuapp.com/search?cmd=%s 
+    - Search URL: https://rusty-bunny-au.herokuapp.com/search?cmd=%s 
     #else if use app in localhost
     # Search URL: http://localhost:8000/search?cmd=%s
 ```
@@ -33,7 +33,7 @@ To set up the new application to be used as a custom search engine in Firefox, y
 ```sh
     - Search Engine: Rusty Bunny Local
     - Keyword: rb (triggers the search engine, if this search engine is not the default)
-    - URL: https://obscure-temple-97338.herokuapp.com/search?cmd=%s
+    - URL: https://rusty-bunny-au.herokuapp.com/search?cmd=%s 
     # else if use app in localhost
     # URL: http://localhost:8000/search?cmd=%s
 ```

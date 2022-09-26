@@ -38,7 +38,7 @@ pub fn construct_reddit_search_url(query: &str ) -> String{
     }
 
     #[test]
-    fn test_construct_reddit_profile_url_with_redsrepo_url() {
+    fn test_construct_reddit_profile_url_with_reds_url() {
         let fake_query = "red @facebook";
         assert_eq!(
             construct_reddit_url(fake_query),

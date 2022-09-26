@@ -7,3 +7,4 @@
 | Youtube   |     yt    | yt or yt @username or yt search                             |
 | Pinterest   |     pin    | pin or pin @username or pin @username/pins or pin search |
 | Reddit   |     red    | red or red @username or pin search |
+| NPMJS    |     npm    | npm or npm @username or npm search or npm pkg package |

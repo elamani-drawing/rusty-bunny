@@ -38,7 +38,7 @@ pub fn construct_twitch_search_url(query: &str ) -> String{
     }
 
     #[test]
-    fn test_construct_twitch_profile_url_with_twisrepo_url() {
+    fn test_construct_twitch_profile_url_with_twi_url() {
         let fake_query = "twi @facebook";
         assert_eq!(
             construct_twitch_url(fake_query),

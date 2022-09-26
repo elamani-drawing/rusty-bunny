@@ -1,5 +1,5 @@
 # Summary
--[Usage](#usage)
+-[Usage](#usage)   
 -[Firefox](#setting-firefox)  
 -[Chrome](#setting-chrome)
 

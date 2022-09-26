@@ -3,6 +3,15 @@ pub mod twitter;
 pub mod github;
 pub mod instagram;
 pub mod youtube;
+pub mod pinterest;
+
+extern crate percent_encoding;
+
+pub use percent_encoding::{utf8_percent_encode, AsciiSet, CONTROLS};
+
+// Used as part of the percent_encoding library
+pub const FRAGMENT: &AsciiSet = &CONTROLS.add(b' ').add(b'"').add(b'<')
+    .add(b'>').add(b'`');
 
 // utiliser pour analyser la chaîne de requête
 pub fn get_command_from_query_string(query_string: &str) -> &str {

@@ -24,6 +24,7 @@ fn search ( cmd : String ) -> Redirect {
         "red" => utils::reddit::construct_reddit_url(&cmd),
         "twi" => utils::twitch::construct_twitch_url(&cmd),
         "npm" => utils::npm::construct_npm_url(&cmd),
+        "pip" => utils::pip::construct_pip_url(&cmd),
         _ => utils::google::construct_google_search_url(&cmd)
 
     };

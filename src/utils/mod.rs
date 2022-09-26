@@ -7,6 +7,7 @@ pub mod pinterest;
 pub mod reddit;
 pub mod twitch;
 pub mod npm;
+pub mod pip;
 
 extern crate percent_encoding;
 

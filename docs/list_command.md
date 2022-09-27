@@ -9,4 +9,6 @@
 | Reddit   |     red    | red or red @username or red search |
 | Npmjs    |     npm    | npm or npm @username or npm search or npm pkg package |
 | Pypi    |     pip    | pip or pip @username or pip search or pip pkg package |
+| Google    |         | search |
+| Ecosia        |     eco    | eco or eco search |
 | DuckDuckGo    |     ddg    | ddg or ddg search |

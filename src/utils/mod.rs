@@ -9,6 +9,7 @@ pub mod twitch;
 pub mod npm;
 pub mod pip;
 pub mod duckduckgo;
+pub mod ecosia;
 
 extern crate percent_encoding;
 

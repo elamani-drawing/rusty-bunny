@@ -8,6 +8,7 @@ pub mod reddit;
 pub mod twitch;
 pub mod npm;
 pub mod pip;
+pub mod duckduckgo;
 
 extern crate percent_encoding;
 

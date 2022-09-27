@@ -6,6 +6,7 @@
 | Twitch  |     twi    | twi or twi @username or twi search                             |
 | Youtube   |     yt    | yt or yt @username or yt search                             |
 | Pinterest   |     pin    | pin or pin @username or pin @username/pins or pin search |
-| Reddit   |     red    | red or red @username or pin search |
+| Reddit   |     red    | red or red @username or red search |
 | Npmjs    |     npm    | npm or npm @username or npm search or npm pkg package |
 | Pypi    |     pip    | pip or pip @username or pip search or pip pkg package |
+| DuckDuckGo    |     ddg    | ddg or ddg search |

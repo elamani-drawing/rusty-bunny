@@ -27,6 +27,7 @@ fn search ( cmd : String ) -> Redirect {
         "pip" => utils::pip::construct_pip_url(&cmd),
         "ddg" => utils::duckduckgo::construct_ddg_url(&cmd),
         "eco" => utils::ecosia::construct_ecosia_url(&cmd),
+        "tik" => utils::tiktok::construct_tiktok_url(&cmd),
         _ => utils::google::construct_google_search_url(&cmd)
 
     };

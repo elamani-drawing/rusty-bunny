@@ -10,6 +10,7 @@ pub mod npm;
 pub mod pip;
 pub mod duckduckgo;
 pub mod ecosia;
+pub mod tiktok;
 
 extern crate percent_encoding;
 
